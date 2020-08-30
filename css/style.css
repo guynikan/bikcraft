@@ -2,6 +2,30 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.btn {
+  border: 3px solid #caa757;
+  padding: 8px 25px;
+  color: black;
+  line-height: 20px;
+  font-weight: bold;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  border-color: black;
+  transition: all 0.5s ease;
+  color: #caa757;
+  padding: 12px 29px;
+  font-size: 18px;
+}
+
 /* Header */
 
 .header {
@@ -36,3 +60,56 @@ body {
   color: #fffefe;
 }
 /* Intro */
+
+.intro {
+  background: url("../img/bg-intro.jpg") no-repeat center;
+  background-size: cover;
+  height: 380px;
+  margin-top: 96px;
+  padding-top: 80px;
+  text-align: center;
+  width: 100%;
+}
+
+.intro h1 {
+  font-size: 2.93em;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.quote-externo {
+  /* quando essa prop é setada, o text-align: center
+  deixa de funcionar e pra alinhar ao centro
+  é preciso utilizar o margin: 0 auto */
+  max-width: 320px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.quote-externo p {
+  font-style: italic;
+}
+
+/* eu utilizo essas propriedades para criar os separadores
+antes e depois do quote */
+.quote-externo p::before,
+.quote-externo p::after {
+  background: black;
+  content: "";
+  display: block;
+  height: 3px;
+  margin: 10px auto;
+  width: 60px;
+}
+
+.quote-externo p::before {
+  margin: 20px auto 10px;
+}
+.quote-externo cite {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
