@@ -21,14 +21,14 @@ Optei por alterar a paleta de cor escolhida no projeto real para esta, por se tr
 
 ## Organização de código
 
-Para a organização de código foi adotada a Metodologia [BEM](http://getbem.com/) por se tratar de um padrão simples e conciso.
+Para a organização de código foi adotada a metodologia [BEM](http://getbem.com/) por se tratar de um padrão simples e conciso.
 
 &nbsp;
 
 ## GRID
 
 O sistema de GRID utilizado para o projeto foi disponibilizado pelo professor do curso. 
-Sendo assim, nenhum framework ou modelo de layout mais moderno foi utilizado, Fazendo com que este projeto seja composto apenas com CSS3 básico (posicionamento com float) e Vanilla JS.
+Sendo assim, nenhum framework ou modelo de layout mais moderno foi utilizado, Fazendo com que este projeto seja composto apenas por CSS3 básico (posicionamento com float) e Vanilla JS.
 
 &nbsp;
 

@@ -8,9 +8,21 @@ p {
   line-height: 20px;
 }
 
+/*  Animações */
+.call-to-action p,
+.portfolio,
+.subtitulo.subtitulo-claro,
+.btn.btn-claro,
+.btn,
+.btn:hover,
+.header_menu ul li a,
+.header_menu ul li a:hover,
+.subtitulo.subtitulo-claro:after {
+  transition: all 0.6s ease-in;
+}
+
 .btn {
   border: 3px solid #caa757;
-  transition: all 0.3s ease-out;
   padding: 8px 25px;
   color: black;
   line-height: 20px;
@@ -21,8 +33,24 @@ p {
 
 .btn:hover {
   border-color: black;
-  transition: all 0.3s ease-in;
   color: #caa757;
+  padding: 12px 29px;
+  font-size: 18px;
+}
+
+.btn-claro {
+  border: 3px solid #caa757;
+  padding: 8px 25px;
+  color: #caa757;
+  line-height: 20px;
+  font-weight: bold;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.btn-claro:hover {
+  border-color: black;
+  color: black;
   padding: 12px 29px;
   font-size: 18px;
 }
@@ -35,6 +63,22 @@ p {
 }
 .subtitulo::after {
   background: black;
+  content: "";
+  display: block;
+  height: 3px;
+  margin: 10px auto;
+  width: 60px;
+}
+
+.subtitulo-claro {
+  color: #caa757;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+.subtitulo-claro::after {
+  background: #caa757;
   content: "";
   display: block;
   height: 3px;
@@ -153,6 +197,11 @@ antes e depois do quote */
   padding: 10px;
 }
 
+.produtos_lista li h3 {
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
 .produtos_lista li h3::after {
   background: black;
   content: "";
@@ -160,11 +209,6 @@ antes e depois do quote */
   height: 3px;
   margin: 5px auto;
   width: 60px;
-}
-
-.produtos_lista li h3 {
-  margin-top: 15px;
-  text-transform: uppercase;
 }
 
 .produtos_lista li p {
@@ -180,6 +224,31 @@ antes e depois do quote */
   text-align: center;
 }
 
+/* Portfólio */
+
 .call-to-action p {
   margin: 20px;
+  color: #caa757;
+}
+
+.portfolio {
+  background-color: black;
+  width: 100%;
+  padding: 60px;
+}
+
+.light {
+  background-color: #caa757;
+}
+
+.black {
+  color: black !important;
+}
+
+.portfolio_lista li:last-child {
+  padding-top: 18px;
+}
+
+.portfolio div ul {
+  margin-top: 40px;
 }
