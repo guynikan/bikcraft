@@ -8,6 +8,18 @@ p {
   line-height: 20px;
 }
 
+/*  img são naturalmente elementos inline
+e no caso específico do img, ele é um replaced element
+o que significa que que ele é um obj de representação independente
+do css.
+outra particularidade do img é que ele tem uma dimensão própria,
+com uma base definida (baseline)
+então pra tirarmos essa baseline (que aparece como uma pequena margem
+entre a img e o elemento pai) usamos display: block */
+img {
+  display: block;
+}
+
 /*  Animações */
 .call-to-action p,
 .portfolio,
@@ -126,7 +138,7 @@ p {
   background: url("../img/bg-intro.jpg") no-repeat center;
   background-size: cover;
   height: 380px;
-  margin-top: 96px;
+  margin-top: 92px;
   padding-top: 80px;
   text-align: center;
   width: 100%;
@@ -246,9 +258,53 @@ antes e depois do quote */
 }
 
 .portfolio_lista li:last-child {
-  padding-top: 18px;
+  padding-top: 20px;
 }
 
 .portfolio div ul {
   margin-top: 40px;
+}
+
+/* qualidade */
+
+.qualidade {
+  padding: 60px 0;
+}
+
+.qualidade::after {
+  content: "";
+  width: 623px;
+  height: 82.275px;
+  display: block;
+  background: url(/svg/linhas.svg);
+  position: absolute;
+  top: 228px;
+  left: 168px;
+}
+
+.qualidade img {
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.qualidade_lista {
+  margin-top: 80px;
+}
+
+.qualidade_lista li {
+  text-align: center;
+  padding: 0 40px;
+}
+
+.qualidade_lista li h3 {
+  text-transform: uppercase;
+}
+
+.qualidade_lista li h3::after {
+  background: black;
+  content: "";
+  display: block;
+  height: 3px;
+  margin: 5px auto;
+  width: 60px;
 }
