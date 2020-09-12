@@ -1,0 +1,41 @@
+.sobre {
+  background: url("/img/esporte-2.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.missao-sobre {
+  margin-top: 60px;
+  font-size: 14px;
+}
+
+.missao-sobre div:last-child {
+  margin-top: 40px;
+}
+
+.missao-sobre li {
+  line-height: 20px;
+}
+
+.missao-sobre h2 {
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.missao-sobre h2::after {
+  background: black;
+  content: "";
+  display: block;
+  height: 3px;
+  margin: 10px 0;
+  width: 60px;
+}
+
+.missao {
+  padding-right: 70px;
+}
+
+.missao p {
+  padding-bottom: 20px;
+}
