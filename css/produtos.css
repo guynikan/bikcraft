@@ -66,3 +66,65 @@
   margin: 10px auto;
   width: 60px;
 }
+
+.orcamento {
+  margin-top: 60px;
+  padding: 50px 0;
+  overflow: hidden;
+  background-color: #1a1a1a;
+}
+
+.formulario {
+  margin-right: 130px;
+}
+
+.formulario label {
+  display: block;
+  margin-top: 10px;
+  color: #caa757;
+}
+
+.formulario input,
+.formulario textarea {
+  background-color: #1a1a1a;
+  border: 2px solid #caa757;
+  color: whitesmoke;
+  width: 100%;
+}
+
+.formulario input[type="submit"] {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 40px;
+  color: #caa757;
+}
+
+.dados {
+  height: 300px;
+}
+
+.dados h3 {
+  color: #caa757;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.dados span {
+  color: whitesmoke;
+  display: block;
+  line-height: 20px;
+}
+
+.dados ul li {
+  padding: 10px;
+  color: whitesmoke;
+}
+.dados ul li:nth-child(odd) {
+  background-color: rgb(63, 63, 63);
+}
+
+hr {
+  position: relative;
+  top: 465px;
+  border: 2px solid #caa757;
+}
