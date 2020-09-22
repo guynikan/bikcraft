@@ -1,0 +1,25 @@
+.intro_portfolio {
+  background: url("/img/foto-intro-interna.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.citacao_portfolio {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.citacao_portfolio blockquote {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.citacao_portfolio cite {
+  font-style: normal;
+}
+
+hr {
+  position: relative;
+  top: 40px;
+  border: 2px solid #caa757;
+}
