@@ -18,6 +18,7 @@ então pra tirarmos essa baseline (que aparece como uma pequena margem
 entre a img e o elemento pai) usamos display: block */
 img {
   display: block;
+  max-width: 100%;
 }
 
 /*  Animações */
@@ -276,7 +277,7 @@ antes e depois do quote */
 .portfolio {
   background-color: #1a1a1a;
   width: 100%;
-  padding: 60px;
+  padding: 60px 0;
 }
 
 .light {
@@ -368,11 +369,7 @@ footer > .container {
 
 .redes_sociais li {
   display: inline-block;
-  margin: 0 5px;
-}
-
-.redes_sociais li a img:hover {
-  color: aqua;
+  margin-right: 5px;
 }
 
 footer .container h3 {

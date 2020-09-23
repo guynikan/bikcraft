@@ -4,26 +4,26 @@
   text-align: center;
 }
 
-.missao-sobre {
+.missao_sobre {
   margin-top: 60px;
   font-size: 14px;
 }
 
-.missao-sobre div:last-child {
+.missao_sobre div:last-child {
   margin-top: 40px;
 }
 
-.missao-sobre li {
+.missao_sobre li {
   line-height: 20px;
 }
 
-.missao-sobre h2 {
+.missao_sobre h2 {
   margin-bottom: 30px;
   text-transform: capitalize;
   font-size: 18px;
 }
 
-.missao-sobre h2::after {
+.missao_sobre h2::after {
   background: black;
   content: "";
   display: block;
@@ -38,4 +38,13 @@
 
 .missao p {
   padding-bottom: 20px;
+}
+
+.qualidade_sobre {
+  padding: 60px 0;
+}
+
+.qualidade_sobre img {
+  margin: 0 auto;
+  margin-top: 80px;
 }
