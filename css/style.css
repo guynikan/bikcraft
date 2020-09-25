@@ -22,6 +22,23 @@ img {
 }
 
 /*  Animações */
+[data-slide] {
+  position: relative;
+}
+
+[data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+
+[data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+
 *,
 *:hover {
   transition: all 0.4s ease-in;
@@ -100,7 +117,7 @@ img {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
 }
 
 .header_menu {
